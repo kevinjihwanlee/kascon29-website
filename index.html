@@ -28,22 +28,31 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Registration</a>
+                    <a class="nav-link" href="#2018conf">2018 Conference</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Accomodations</a>
+                    <a class="nav-link" href="#Registration">Registration</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">FAQ</a>
+                    <a class="nav-link" href="#">Speakers</a>
+                </li>
+                <li class="nav-item">
+                    <a data-scroll class="nav-link" href="#Hotels">Hotels</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#FAQ">FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Contact">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
     <img id="test" src="img\header.jpg" class="img-fluid" alt="Responsive image">
-    <div class="container">
+    <div class="container mt-5" id="about">
         <div class="row">
             <div class="col">
-                <h1 class="display-4" id="about">About KASCON</h1>
+                <h1 class="display-4">About KASCON</h1>
                 <p> KASCON 29 is the nation's largest Korean-American conference lorem ipsum dolor sit amet, consectetur adipiscing
                     elit. Suspendisse congue sit amet neque quis ultricies. Pellentesque tincidunt velit tortor, at tempus
                     velit pellentesque non. Sed orci tortor, dictum id leo non, viverra tempus justo. Morbi lobortis eleifend
@@ -60,8 +69,31 @@
             </div>
         </div>
     </div>
-
-    <div class="container">
+    <div class="container mt-5" id="2018conf">
+        <div class="row">
+            <div class="col">
+                <h1 class="display-4">2018 Conference</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p>There should be some information about the conference here.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5" id="Registration">
+            <div class="row">
+                <div class="col">
+                    <h1 class="display-4">Registration</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p>There should be some information about registration here.</p>
+                </div>
+            </div>
+    </div>
+    <div class="container mt-5" id="Hotels">
         <div class="row">
             <div class="col">
                 <h1 class="display-4">Hotels</h1>
@@ -71,7 +103,7 @@
         <div class="row">
             <div class="card-group">
                 <div class="card">
-                    <img class="card-img-top img-thumbnail" src="img/hilton_orrington.jpg" alt="Card image cap">
+                    <img class="card-img-top img-thumbnail" src="img/hilton_orrington_1.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h4 class="card-title">Hilton Orrington</h4>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This
@@ -79,101 +111,109 @@
                             <a href="http://www3.hilton.com/en/hotels/illinois/hilton-orrington-evanston-ORDOEHF/index.html">Website.</a>
                             </a>
                         </p>
-
-                        <p class="card-text">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                        </p>
                     </div>
                 </div>
                 <div class="card">
-                    <img class="card-img-top img-thumbnail" src="img/hilton_garden_inn.jpg" alt="Card image cap">
+                    <img class="card-img-top img-thumbnail" src="img/hilton_garden_inn_1.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h4 class="card-title">Hilton Garden Inn</h4>
                         <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                        <p class="card-text">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                        </p>
                     </div>
                 </div>
                 <div class="card">
-                    <img class="card-img-top img-thumbnail" src="img/holiday_inn.jpg" alt="Card image cap">
+                    <img class="card-img-top img-thumbnail" src="img/holiday_inn_1.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h4 class="card-title">Holiday Inn Evanston</h4>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This
                             card has even longer content than the first to show that equal height action.</p>
-                        <p class="card-text">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container mt-5" id="FAQ">
         <div class="row">
             <div class="col">
                 <h1 class="display-4">FAQ</h1>
                 <p>Frequently asked questions and stuff.</p>
             </div>
         </div>
-        <div id="accordion" role="tablist">
-            <div class="card">
-                <div class="card-header" role="tab" id="headingOne">
-                    <h5 class="mb-0">
-                        <a data-toggle="collapse" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                            Collapsible Group Item #1
-                        </a>
-                    </h5>
-                </div>
+        <div class="row">
+            <div class="col">
+                <div id="accordion" role="tablist">
+                    <div class="card">
+                        <div class="card-header" role="tab" id="headingOne">
+                            <h5 class="mb-0">
+                                <a data-toggle="collapse" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    Collapsible Group Item #1
+                                </a>
+                            </h5>
+                        </div>
 
-                <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
-                    <div class="card-body">
-                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
-                        non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf
-                        moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
-                        Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-                        Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic
-                        synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                                non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch
+                                3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                                sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                                farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+                                labore sustainable VHS.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab" id="headingTwo">
+                            <h5 class="mb-0">
+                                <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Collapsible Group Item #2
+                                </a>
+                            </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                                non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch
+                                3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                                sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                                farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+                                labore sustainable VHS.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab" id="headingThree">
+                            <h5 class="mb-0">
+                                <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Collapsible Group Item #3
+                                </a>
+                            </h5>
+                        </div>
+                        <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                                non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch
+                                3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                                sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                                farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+                                labore sustainable VHS.
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="card">
-                <div class="card-header" role="tab" id="headingTwo">
-                    <h5 class="mb-0">
-                        <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Collapsible Group Item #2
-                        </a>
-                    </h5>
-                </div>
-                <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
-                    <div class="card-body">
-                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
-                        non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf
-                        moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
-                        Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-                        Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic
-                        synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" role="tab" id="headingThree">
-                    <h5 class="mb-0">
-                        <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            Collapsible Group Item #3
-                        </a>
-                    </h5>
-                </div>
-                <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
-                    <div class="card-body">
-                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
-                        non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf
-                        moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
-                        Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-                        Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic
-                        synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                    </div>
-                </div>
+           
+        </div>
+    </div>
+    <div class="container mt-5" id="Contact">
+        <div class="row">
+            <div class="col">
+                <h1 class="display-4" id="about">Contact</h1>
+                <p>Questions? Comments? Concerns?</p>
+                <p>example@email.com (this will be a hyperlink later)</p>
+                <p>other random stuff</p>
             </div>
         </div>
     </div>
@@ -203,6 +243,11 @@
         crossorigin="anonymous"></script>
     <!-- FontAwesome -->
     <script src="https://use.fontawesome.com/9aee0349e4.js"></script>
+    <!-- SmoothScroll -->
+    <script src="js/smooth-scroll.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
 </body>
 
 </html>
