@@ -5,10 +5,11 @@ Last updated November 26, 2017.
 ### Necessary To-Do
 * Fix the links in the hotel cards to open to new tab 
 * Standardize the hotel image size, preferably square? **DONE**
-* Fix the FAQ functionality
+* Fix the FAQ functionality **DONE**
 * Add functionality to cute social media icons
-* Fix the padding for all the sections 
+* Fix the padding for all the sections **DONE**
 * Include proper documentation for this README
+* Scroll anchor goes too far 
 
 ### Website Sections
 * About KASCON **WIP**
